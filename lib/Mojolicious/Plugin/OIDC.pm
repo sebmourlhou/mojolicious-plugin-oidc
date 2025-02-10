@@ -334,6 +334,16 @@ including sensitive tokens such as access and refresh tokens, on the backend
 rather than in client-side cookies. Although cookies can be signed and encrypted,
 storing tokens in the client exposes them to potential security threats.
 
+=head1 AUTHOR
+
+Sébastien Mourlhou
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) Sébastien Mourlhou
+
+This program is free software, you can redistribute it and/or modify it under the terms of the Artistic License version 2.0.
+
 =head1 SEE ALSO
 
 =over 2
