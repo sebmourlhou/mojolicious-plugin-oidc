@@ -21,7 +21,11 @@ Mojolicious::Plugin::OIDC - OIDC protocol integration for Mojolicious
 =head1 DESCRIPTION
 
 This plugin makes it easy to integrate the OpenID Connect protocol
-into a Mojolicious application.
+into a Mojolicious application. It enables applications to act as an
+OpenID Connect Relying Party (RP) for user authentication and as an
+OAuth 2.0 Resource Server by validating Access Tokens issued by an
+external Authorization Server or OpenID Provider. It does not implement
+an OpenID Provider.
 
 It essentially uses the L<OIDC-Client|https://metacpan.org/dist/OIDC-Client>
 distribution.
